@@ -29,9 +29,9 @@ public class LoginPage {
 	
 	public void loginToApplication()
 	{
-		userName.sendKeys("kalyaneesmelkunde@gmail.com");
-		password.sendKeys("Bshankar@143");
-		login.click();
+		//userName.sendKeys("kalyaneesmelkunde@gmail.com");
+		//password.sendKeys("Bshankar@143");
+		//login.click();
 	}
 	public void clickOnCreateNewAccount()
 	{
