@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-29T18:22:56 IST" name="Suite" finished-at="2022-05-29T18:23:26 IST" duration-ms="29743">
+    <groups>
+    </groups>
+    <test started-at="2022-05-29T18:22:56 IST" name="ChromTest" finished-at="2022-05-29T18:23:08 IST" duration-ms="11795">
+      <class name="testClasses.test">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testClasses.test@73700b80]" started-at="2022-05-29T18:22:58 IST" name="beforeClass" finished-at="2022-05-29T18:22:59 IST" duration-ms="505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMehod()[pri:0, instance:testClasses.test@73700b80]" started-at="2022-05-29T18:22:59 IST" name="beforeMehod" finished-at="2022-05-29T18:22:59 IST" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMehod -->
+        <test-method signature="verifyForgottenPasswordTab()[pri:0, instance:testClasses.test@73700b80]" started-at="2022-05-29T18:22:59 IST" name="verifyForgottenPasswordTab" finished-at="2022-05-29T18:23:00 IST" duration-ms="729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgottenPasswordTab -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.test@73700b80]" started-at="2022-05-29T18:23:00 IST" name="afterMethod" finished-at="2022-05-29T18:23:00 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyForgottenPasswordTab status=SUCCESS method=test.verifyForgottenPasswordTab()[pri:0, instance:testClasses.test@73700b80] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMehod()[pri:0, instance:testClasses.test@73700b80]" started-at="2022-05-29T18:23:00 IST" name="beforeMehod" finished-at="2022-05-29T18:23:00 IST" duration-ms="373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMehod -->
+        <test-method signature="verifyLogin()[pri:0, instance:testClasses.test@73700b80]" started-at="2022-05-29T18:23:00 IST" name="verifyLogin" finished-at="2022-05-29T18:23:01 IST" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.test@73700b80]" started-at="2022-05-29T18:23:01 IST" name="afterMethod" finished-at="2022-05-29T18:23:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=test.verifyLogin()[pri:0, instance:testClasses.test@73700b80] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testClasses.test@73700b80]" started-at="2022-05-29T18:23:01 IST" name="afterClass" finished-at="2022-05-29T18:23:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- testClasses.test -->
+      <class name="testClasses.testSighUp">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testClasses.testSighUp@7e5afaa6]" started-at="2022-05-29T18:22:56 IST" name="launchBrowser" finished-at="2022-05-29T18:22:58 IST" duration-ms="1737" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testClasses.testSighUp@7e5afaa6]" started-at="2022-05-29T18:23:01 IST" name="beforeClass" finished-at="2022-05-29T18:23:01 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMehod()[pri:0, instance:testClasses.testSighUp@7e5afaa6]" started-at="2022-05-29T18:23:01 IST" name="beforeMehod" finished-at="2022-05-29T18:23:01 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMehod -->
+        <test-method signature="testSignUpPage()[pri:0, instance:testClasses.testSighUp@7e5afaa6]" started-at="2022-05-29T18:23:01 IST" name="testSignUpPage" finished-at="2022-05-29T18:23:04 IST" duration-ms="2777" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpPage -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testClasses.testSighUp@7e5afaa6]" started-at="2022-05-29T18:23:04 IST" name="closeDriver" finished-at="2022-05-29T18:23:08 IST" duration-ms="4137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.testSighUp@7e5afaa6]" started-at="2022-05-29T18:23:04 IST" name="afterMethod" finished-at="2022-05-29T18:23:04 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSignUpPage status=SUCCESS method=testSighUp.testSignUpPage()[pri:0, instance:testClasses.testSighUp@7e5afaa6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.testSighUp -->
+    </test> <!-- ChromTest -->
+    <test started-at="2022-05-29T18:23:08 IST" name="EdgeTest" finished-at="2022-05-29T18:23:19 IST" duration-ms="11245">
+      <class name="testClasses.testSighUp">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testClasses.testSighUp@5ba3f27a]" started-at="2022-05-29T18:23:08 IST" name="launchBrowser" finished-at="2022-05-29T18:23:12 IST" duration-ms="4235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testClasses.testSighUp@5ba3f27a]" started-at="2022-05-29T18:23:12 IST" name="beforeClass" finished-at="2022-05-29T18:23:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMehod()[pri:0, instance:testClasses.testSighUp@5ba3f27a]" started-at="2022-05-29T18:23:12 IST" name="beforeMehod" finished-at="2022-05-29T18:23:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMehod -->
+        <test-method signature="testSignUpPage()[pri:0, instance:testClasses.testSighUp@5ba3f27a]" started-at="2022-05-29T18:23:12 IST" name="testSignUpPage" finished-at="2022-05-29T18:23:15 IST" duration-ms="2832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpPage -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.testSighUp@5ba3f27a]" started-at="2022-05-29T18:23:15 IST" name="afterMethod" finished-at="2022-05-29T18:23:15 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSignUpPage status=SUCCESS method=testSighUp.testSignUpPage()[pri:0, instance:testClasses.testSighUp@5ba3f27a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testClasses.testSighUp@5ba3f27a]" started-at="2022-05-29T18:23:15 IST" name="closeDriver" finished-at="2022-05-29T18:23:19 IST" duration-ms="4175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- testClasses.testSighUp -->
+    </test> <!-- EdgeTest -->
+    <test started-at="2022-05-29T18:23:19 IST" name="FirefoxTest" finished-at="2022-05-29T18:23:26 IST" duration-ms="6665">
+      <class name="testClasses.testSighUp">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:testClasses.testSighUp@52af26ee]" started-at="2022-05-29T18:23:19 IST" name="launchBrowser" finished-at="2022-05-29T18:23:22 IST" duration-ms="2732" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="testSignUpPage()[pri:0, instance:testClasses.testSighUp@52af26ee]" started-at="2022-05-29T18:23:22 IST" name="testSignUpPage" finished-at="2022-05-29T18:23:26 IST" duration-ms="3442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSignUpPage -->
+        <test-method is-config="true" signature="beforeMehod()[pri:0, instance:testClasses.testSighUp@52af26ee]" started-at="2022-05-29T18:23:22 IST" name="beforeMehod" finished-at="2022-05-29T18:23:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMehod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testClasses.testSighUp@52af26ee]" started-at="2022-05-29T18:23:22 IST" name="beforeClass" finished-at="2022-05-29T18:23:22 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:testClasses.testSighUp@52af26ee]" started-at="2022-05-29T18:23:26 IST" name="closeDriver" finished-at="2022-05-29T18:23:26 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.testSighUp@52af26ee]" started-at="2022-05-29T18:23:26 IST" name="afterMethod" finished-at="2022-05-29T18:23:26 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSignUpPage status=SUCCESS method=testSighUp.testSignUpPage()[pri:0, instance:testClasses.testSighUp@52af26ee] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testClasses.testSighUp -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>

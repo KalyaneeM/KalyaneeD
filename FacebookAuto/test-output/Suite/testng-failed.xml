@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="ChromTest(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="testClasses.testSighUp">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="launchBrowser"/>
+          <include name="beforeClass"/>
+          <include name="beforeMehod"/>
+          <include name="afterMethod"/>
+          <include name="testSignUpPage"/>
+        </methods>
+      </class> <!-- testClasses.testSighUp -->
+    </classes>
+  </test> <!-- ChromTest(failed) -->
+  <test thread-count="5" name="EdgeTest(failed)">
+    <parameter name="browserName" value="Edge"/>
+    <classes>
+      <class name="testClasses.testSighUp">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="launchBrowser"/>
+          <include name="beforeClass"/>
+          <include name="beforeMehod"/>
+          <include name="afterMethod"/>
+          <include name="testSignUpPage"/>
+        </methods>
+      </class> <!-- testClasses.testSighUp -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="testClasses.testSighUp">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="launchBrowser"/>
+          <include name="beforeClass"/>
+          <include name="beforeMehod"/>
+          <include name="afterMethod"/>
+          <include name="testSignUpPage"/>
+        </methods>
+      </class> <!-- testClasses.testSighUp -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
